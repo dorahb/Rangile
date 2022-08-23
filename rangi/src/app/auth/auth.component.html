@@ -1,1 +1,68 @@
-<p>auth works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rangi</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="auth">
+      <div class="form-box left">
+          <div class="info">
+              <h2>Rangile</h2>
+              <div class="contact-info">
+                   <p>Tel: 12345678</p>
+                   <p>Email: rangi@mail.com</p>
+                   <p>Nairobi,Kenya</p>
+
+              </div>
+             
+              <div class="navigation">
+                  <a href=" ">Back to home</a>
+                  <i class="fa-solid fa-angles-left"></i>
+              </div>
+          </div>
+      </div>
+      <div class="form-box right">
+          <div class="button-box">
+              <div id="btn"></div>
+              <button type="button" class="toggle-btn" onclick="login()">Login</button>
+              <button type="button" class="toggle-btn" onclick="register()">Register</button>
+          </div>
+          <form id="login" action="" class="input-group">
+              <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="User Name" required>
+              </div>
+              <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Enter Password" required>
+              </div>
+              <input type="checkbox" name="checkbox" class="checkbox"><span>Remember Password</span>
+              <button type="submit" class="submit-btn">Login</button>
+          </form>
+
+          <form id="register" action="" class="input-group">
+              <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="User Name" required>
+              </div>
+              <div class="input-field">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="User Email" required>
+              </div>
+              <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Enter Password" required>
+              </div>
+              <input type="checkbox" name="checkbox" class="checkbox"><span>Agree to terms and conditions</span>
+              <button type="submit" class="submit-btn">Register</button>
+          </form>
+      </div>
+  </div>
+</body>
+</html>

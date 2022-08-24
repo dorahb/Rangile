@@ -169,26 +169,5 @@ span {
     color:coral;
 }
 
-@media (max-width: 960px) {
-    .hero {
-        flex-direction: column;
-        overflow: visible;
-        justify-content: flex-start;
-        height: 130%;
-    }
-    .form-box.left {
-        order: 2;
-        margin-top: 550px;
-        width: 350px;
-    }
-    .form-box.right {
-        order: 1;
-    }
-    .form-box {
-        height: 550px;
-        width: 350px;
-        margin: 10px 0;
-        position: absolute;
-    }
-}
+
 

@@ -1,6 +1,7 @@
- *
+*
 {
   color: white;
+  background-color: #558EAA
 }
  h1{
   text-align: center;
@@ -10,6 +11,16 @@
 .d-block{
   justify-content: center;
   text-align: center;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  
+}
+
+img{
+  border-radius: 50%;
 }
 
 

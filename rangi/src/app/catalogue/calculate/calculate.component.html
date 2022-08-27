@@ -1,3 +1,123 @@
-<p>calculate works!</p>
+<div class="calculator">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h1>Paint calculator</h1>
+    <form id="wallPaperCalculator" class="form-horizontal" role="form" align="center">
+      <!--WALLS SECTION-->
+      <h5 >Walls</h5>
+      <div class="wall">
+        <!--Walls-->
+        <div class="row">
+          <!--Wall 1-->
+          <div class="col-md-4">
+            <div class="row">
+              <h6 class="text-center">Wall 1</h6>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control wallWidth" id="wall1Width" aria-describedby="wall1Width1"
+                  placeholder="Width in metres">
+              </div>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control wallHeight" id="wall1Height" placeholder="Height in metres"
+                  aria-describedby="wall1Height1">
+              </div>
+            </div>
+          </div>
+          <!--End of Wall 1-->
+
+          <!--Wall 2-->
+          <div class="col-md-4">
+            <div class="row">
+              <h6 class="text-center">Wall 2</h6>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control anotherWallWidth" id="wall2Width" aria-describedby="wall2Width"
+                  placeholder="Width in metres">
+              </div>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control anotherWallHeight" id="wall2Height"
+                  aria-describedby="wall2Height" placeholder="Height in metres">
+              </div>
+            </div>
+          </div>
+          <!--End of Wall 2-->
+        </div>
+        <div class="row">
+          <!--Wall 3-->
+          <div class="col-md-4">
+            <div class="row">
+              <h6 class="text-center">Wall 3</h6>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control wallWidth" id="wall3Width" aria-describedby="wall3Width"
+                  placeholder="Width in metres">
+              </div>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control wallHeight" id="wall3Height" placeholder="Height in metres"
+                  aria-describedby="wall3Height">
+              </div>
+            </div>
+          </div>
+          <!--End of Wall 3-->
+
+          <!--Wall 4-->
+          <div class="col-md-4">
+            <div class="row">
+              <h6 class="text-center">Wall 4</h6>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control anotherWallWidth" id="wall4Width" aria-describedby="wall4Width"
+                  placeholder="Width in metres">
+              </div>
+              <div class="col-md-6">
+                <input type="number" step="any" min="0" class="form-control anotherWallHeight" id="wall4Height"
+                  aria-describedby="wall4Height" placeholder="Height in metres">
+              </div>
+            </div>
+          </div>
+          <!--End of Wall 4-->
+        </div>
+      </div>
+      <!--DOORS SECTION-->
+      <div class="row">
+        <h5>Doors</h5>
+        <div class="col-md-4">
+          <h6 class="text-center">Width</h6>
+          <input type="number" step="any" min="0" class="form-control doorWidth" id="doorWidth" aria-describedby="doorWidth">
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-center">Height</h6>          
+          <input type="number" step="any" min="0" class="form-control doorHeight" id="doorHeight" aria-describedby="doorHeight">
+        </div>
+      </div>
+      <!--WINDOWS SECTION-->
+      <div class="row">
+        <h5>Windows</h5>
+        <div class="col-md-4">
+          <h6 class="text-center">Width</h6>
+          <input type="number" step="any" min="0" class="form-control windowWidth" id="windowWidth" aria-describedby="windowWidth">
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-center">Height</h6> 
+          <input type="number" step="any" min="0" class="form-control windowHeight" id="windowHeight" aria-describedby="windowHeight">
+        </div>
+      </div>
+      <!--ADDITIONAL SPACE SECTION-->
+      <div class="row">
+        <h5>Additional Space</h5>
+        <div class="col-md-4">
+          <h6 class="text-center">Width</h6>
+          <input type="number" step="any" min="0" class="form-control extraSpaceWidth" id="extraSpaceWidth"
+            aria-describedby="extraSpaceWidth">
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-center">Height</h6> 
+          <input type="number" step="any" min="0" class="form-control extraSpaceHeight" id="extraSpaceHeight"
+            aria-describedby="extraSpaceHeight">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+   </div> 
+  </div>
+</div>
 
 <app-footer></app-footer>

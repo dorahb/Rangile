@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {RouterModule, Routes } from '@angular/router';
 import {LandingPageComponent} from './landing-page/landing-page.component';
 import {IntroComponent} from './landing-page/intro/intro.component'
 import {WhatWeDoComponent} from './landing-page/what-we-do/what-we-do.component'
@@ -8,8 +8,6 @@ import {CatalogueComponent } from './catalogue/catalogue.component';
 import {ThumbnailComponent } from './catalogue/thumbnail/thumbnail.component';
 import {OrderComponent } from './catalogue/order/order.component';
 import {CalculateComponent } from './catalogue/calculate/calculate.component';
-
-
 import { AuthComponent } from './auth/auth.component';
 
 
@@ -24,9 +22,6 @@ const routes: Routes = [
   {path: 'order', component: OrderComponent},
   {path: 'calculate', component: CalculateComponent},
   {path: 'auth', component: AuthComponent},
-
-
-
 ];
 
 @NgModule({

@@ -12,4 +12,8 @@ export class CalculateComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  Calculate(){
+    alert("You will need X litres of paint for your room ")
+  }
+
 }

@@ -13,7 +13,6 @@ import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {path:'', component:LandingPageComponent},
-  {path: 'landingpage', component: LandingPageComponent},
   {path: 'intro', component: IntroComponent},
   {path: 'what-we-do', component: WhatWeDoComponent},
   {path: 'testimonials', component: TestimonialsComponent},

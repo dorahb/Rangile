@@ -1,25 +1,32 @@
 # Rangile
+ The application is built on Angular CLI
 
-This project was generated with Angular CLI version  13.3.11.
+#### By Nyambura Bianca
 
-Development server
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
-Remember to navigate to the app and npm install incase you cloned the app
+## Description
+An e-commerce application that allows users to calculate the exact amount of paint they will need based on measurements of their room dimensions.
 
-Code scaffolding
-Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
+## How to set it up
+Open terminal or a similar app on your computer
 
-Build
-Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
+Change directory to Desktop
 
-Running unit tests
-Run ng test to execute the unit tests via Karma.
+Copy https://github.com/Nyambura23/Rangile
 
-Running end-to-end tests
-Run ng e2e to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Use git clone and paste that link after it to clone the repository
+Navigate to the app and type npm install on terminal 
+Run ng serve to view the site, you can edit the source files to reflect new changes that you would like to see
 
-Further help
-To get more help on the Angular CLI use ng help or go check out the Angular CLI Overview and Command Reference page.
+## Known Bugs
+No known bugs as at now
 
-Reach me 
-You can reach me via email @ nyambura.bianca23@gmail.com incase you would like to make contributions to the code. 
+## Technologies Used
+Its an angular app built using HTML, CSS and Typescript 
+
+## Support and contact details
+You can reach me on email: nyambura.bianca23@gmail.com, incase you run into any issues or would like to make a contribution to the code.
+
+### License
+This site is licensed under MIT License
+
+Copyright (c) 2022 Nyambura Bianca

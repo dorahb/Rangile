@@ -9,6 +9,9 @@ import {ThumbnailComponent } from './catalogue/thumbnail/thumbnail.component';
 import {OrderComponent } from './catalogue/order/order.component';
 import {CalculateComponent } from './catalogue/calculate/calculate.component';
 import { AuthComponent } from './auth/auth.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { LoginComponent } from './auth/login/login.component';
+import { AuthGuard } from './auth/guard/auth.guard';
 
 
 const routes: Routes = [
@@ -16,11 +19,15 @@ const routes: Routes = [
   {path: 'intro', component: IntroComponent},
   {path: 'what-we-do', component: WhatWeDoComponent},
   {path: 'testimonials', component: TestimonialsComponent},
-  {path: 'catalogue', component: CatalogueComponent},
-  {path: 'thumbnail', component: ThumbnailComponent},
-  {path: 'order', component: OrderComponent},
-  {path: 'calculate', component: CalculateComponent},
+  {path: 'catalogue', component: CatalogueComponent,canActivate:[AuthGuard]},
+  {path: 'thumbnail', component: ThumbnailComponent,canActivate:[AuthGuard]},
+  {path: 'order', component: OrderComponent,canActivate:[AuthGuard]},
+  {path: 'calculate', component: CalculateComponent,canActivate:[AuthGuard]},
   {path: 'auth', component: AuthComponent},
+  {path: 'register', component: RegisterComponent},
+  {path: 'login', component: LoginComponent},
+
+
 ];
 
 @NgModule({
